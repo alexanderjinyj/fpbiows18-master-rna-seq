@@ -1,0 +1,15 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+properties:
+  samples:
+    type: string
+  transcripts_index:
+    type: string
+
+required:
+  - samples
+  - transcripts_index
